@@ -1,0 +1,13 @@
+:root {
+  font-family: "Arial";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 19px;
+  color: #000000;
+  --primary-color: #000000;
+  --dark-grey: #7e7e7e;
+  --dark-grey: #999999;
+}
+body {
+  background-color: #e5e5e5;
+}

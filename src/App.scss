@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  margin: 30px auto;
+  padding: 90px 100px;
+  width: 1169px;
+  height: 982px;
+  background-color: #ffffff;
+}
+
+@import './mediascreen';

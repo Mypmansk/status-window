@@ -1,0 +1,130 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+	.form {
+		padding: calc(90px * 0.8) calc(100px * 0.8);
+		width: calc(1169px * 0.8);
+		height: 100%;
+	}
+
+	.inputSection {
+		flex-wrap: wrap;
+
+		p {
+			margin-left: 0px;
+			margin-right: 50px;
+		}
+
+		.nonImportant {
+			width: 224px;
+		}
+
+		.importantStar {
+			width: 224px;
+		}
+	}
+
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.form {
+		padding: calc(90px * 0.6) calc(100px * 0.6);
+		max-width: 480px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.inputArea {
+		width: calc(335px * 0.8);
+
+	}
+
+	.inputSection {
+		flex-wrap: wrap;
+		width: calc(559px * 0.8);
+
+		p {
+			margin-left: 0px;
+			margin-right: 10px;
+
+
+		}
+
+		.inputBox {
+			margin-top: 10px;
+		}
+	}
+
+	.button {
+		margin-left: 0;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+	.form {
+		padding: calc(90px * 0.5) calc(100px * 0.5);
+		max-width: 480px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.inputArea {
+		width: calc(335px * 0.7);
+
+	}
+
+	.inputSection {
+		flex-wrap: wrap;
+		width: calc(559px * 0.7);
+
+		p {
+			margin-left: 0px;
+			;
+		}
+
+		.inputBox {
+			margin-top: 10px;
+		}
+	}
+
+	.button {
+		margin-left: 0;
+	}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+	.form {
+		padding: calc(90px * 0.3) calc(100px * 0.3);
+		min-width: 420px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.inputArea {
+		width: calc(335px * 0.5);
+
+	}
+
+	.inputSection {
+		flex-wrap: wrap;
+		width: calc(559px * 0.5);
+
+		p {
+			margin-left: 0px;
+			;
+		}
+
+		.inputBox {
+			margin-top: 10px;
+		}
+	}
+
+	.button {
+		margin-left: 0;
+	}
+
+
+
+}
